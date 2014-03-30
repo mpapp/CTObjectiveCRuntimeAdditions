@@ -6,6 +6,11 @@
 //  Copyright (c) 2012 ebf. All rights reserved.
 //
 
+
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+
 typedef void(^CTMethodEnumertor)(Class class, Method method);
 typedef BOOL(^CTClassTest)(Class subclass);
 

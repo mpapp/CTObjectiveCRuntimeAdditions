@@ -6,6 +6,11 @@
 //  Copyright (c) 2012 olettere. All rights reserved.
 //
 
+
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+
 struct CTBlockLiteral {
     void *isa; // initialized to &_NSConcreteStackBlock or &_NSConcreteGlobalBlock
     int flags;

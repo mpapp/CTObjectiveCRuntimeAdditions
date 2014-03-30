@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7620EDE15F359680016F414 /* CTBlockDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = A7620EDC15F359680016F414 /* CTBlockDescription.h */; };
+		A7620EDE15F359680016F414 /* CTBlockDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = A7620EDC15F359680016F414 /* CTBlockDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7620EDF15F359680016F414 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A7620EDD15F359680016F414 /* CTBlockDescription.m */; };
 		A7620F2B15F394430016F414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7620F2A15F394430016F414 /* CoreGraphics.framework */; };
 		A76AC25B154BDACB00B93FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76AC25A154BDACB00B93FEF /* Foundation.framework */; };
@@ -19,6 +19,7 @@
 		A76AC278154BDACC00B93FEF /* CTObjectiveCRuntimeAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76AC277154BDACC00B93FEF /* CTObjectiveCRuntimeAdditionsTests.m */; };
 		A76AC283154BE37C00B93FEF /* CTTestSwizzleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A76AC282154BE37C00B93FEF /* CTTestSwizzleClass.m */; };
 		A76AC2BD154BECFF00B93FEF /* CTTestSwizzleSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = A76AC2BC154BECFF00B93FEF /* CTTestSwizzleSubclass.m */; };
+		D9EB57CA18E6021F00CB40A3 /* CTObjectiveCRuntimeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A76AC25F154BDACB00B93FEF /* CTObjectiveCRuntimeAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EB57CA18E6021F00CB40A3 /* CTObjectiveCRuntimeAdditions.h in Headers */,
 				A7620EDE15F359680016F414 /* CTBlockDescription.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
